@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="imgbackground" src="./ninja.webp" alt="">
+        <button class="back">
+            <p>Back</p>
+            <!-- <img src="./620-6205611_double-right-arrow-icon-clipart-png-download-double.png" alt=""> -->
+        </button>
+        <div class="list-select">
+            <div class="select">
+                <label for="play" class="label">
+                    <img src="./icon-png-play-button-icons-and-png-backgrounds-24.png" alt="">
+                    <p>Play</p>
+                </label>
+                <button class="button_select" id="play">play</button>
+            </div>
+            <div class="select">
+                <label for="setting" class="label">
+                    <img src="./free-settings-icon-3110-thumb.png " alt="">
+                    <p>Setting</p>
+                </label>
+                <button class="button_select" id="setting">setting</button>
+            </div>
+            <div class="select">
+                <label for="rate" class="label">
+                    <img src="./107236.png" alt="">
+                    <p>Rate</p>
+                </label>
+                <button class="button_select" id="rate">rate</button>
+            </div>
+            <div class="select">
+                <label for="more" class="label">
+                    <img src="./648351_box_512x512.png" alt="">
+                    <p>More</p>
+                </label>
+                <button class="button_select" id="more">more</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $('.back').click(function () {
+        window.open('', '_parent', '');
+        window.close();
+    })
+</script>
